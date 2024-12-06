@@ -1,0 +1,15 @@
+
+.heading p {
+  font-size: 10px;
+  font-family: Quick-sand, sans-serif;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+.heading h2 {
+  font-family: Georgia, serif;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}

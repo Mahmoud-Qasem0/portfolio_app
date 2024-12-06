@@ -1,0 +1,51 @@
+.skills {
+  padding: 3rem 6rem 0;
+}
+@media (max-width: 991px) {
+  .skills {
+    padding: 3rem;
+  }
+}
+.skills p {
+  font-family: Quicksand, Arial, sans-serif;
+  color: #777;
+  font-size: 14px;
+  line-height: 1.8;
+  text-transform: capitalize;
+}
+.skills .row .prog-box::before {
+  font-family: Quicksand, Arial, sans-serif;
+  content: attr(data-prog);
+  position: absolute;
+  top: -5px;
+  width: 30px;
+  height: 30px;
+  font-size: 12px;
+}
+.skills .row .prog-box:first-child::before {
+  left: calc(75% - 15px);
+}
+.skills .row .prog-box:nth-child(2)::before {
+  left: calc(85% - 15px);
+}
+.skills .row .prog-box:nth-child(3)::before {
+  left: calc(70% - 15px);
+}
+.skills .row .prog-box:nth-child(4)::before {
+  left: calc(60% - 15px);
+}
+.skills .row .prog-box:nth-child(5)::before {
+  left: calc(90% - 15px);
+}
+.skills .row .prog-box:last-child::before {
+  left: calc(80% - 15px);
+}
+.skills .row .prog-box h3 {
+  font-family: Quicksand, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+.skills .row .prog-box .progress {
+  color: #f2f3f7;
+  height: 6px;
+}

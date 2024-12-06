@@ -1,0 +1,31 @@
+.about {
+  padding: 3rem 4rem 0;
+}
+@media (max-width: 991px) {
+  .about {
+    padding: 3rem;
+  }
+}
+.about p {
+  font-family: Quicksand, Arial, sans-serif;
+  color: #777;
+  font-size: 14px;
+  line-height: 1.8;
+  text-transform: capitalize;
+}
+
+.about .row .serv-box {
+  padding: 20px;
+  box-shadow: 5px 5px 16px rgba(0 0 0 / 20%);
+  text-align: center;
+  border-bottom: 2px solid #2c98f0;
+}
+.about .row .serv-box h3 {
+  font-family: Quicksand, Arial, sans-serif;
+  font-size: 16px;
+}
+.about .row .serv-box i {
+  margin-bottom: 25px;
+  margin-top: 10px;
+  color: #2c98f0;
+}
