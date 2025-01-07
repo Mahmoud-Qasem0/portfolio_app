@@ -76,3 +76,9 @@
   font-family: Quicksand, Arial, sans-serif;
   font-weight: lighter;
 }
+@media (max-width: 767px) {
+  .work .row .show {
+    padding: 0 1rem;
+    justify-content: center;
+  }
+}
